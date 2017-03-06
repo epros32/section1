@@ -11,8 +11,18 @@ import UIKit
 class ViewController: UIViewController {
 var a = 14
     
+    @IBAction func welcomeaction(sender: AnyObject) {
+    }
+    @IBOutlet weak var wtfimageview: UIImageView!
+    @IBOutlet weak var goriimageview: UIImageView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        wtfimageview.isHidden 
+        wtfimageview.isAnimating()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
